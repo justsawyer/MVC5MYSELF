@@ -1,0 +1,70 @@
+﻿body {
+        background-color:#e1e1e1;
+}
+
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+.box{
+    height:1000px;
+    width:1000px;
+    margin:0 auto;
+}
+
+    .box .boxUst {
+ 
+    width:100%;
+    height:50px;
+    float:left;
+    background-color:#2a595c;
+
+    }
+    .box .kutuGovde{
+    margin-top:20px;
+    width:100%;
+    height:auto;
+    float:left;
+}
+
+.box .kutuGovde .sol{
+    width:700px;
+    float:left;
+    height:500px;
+          border:1px dotted #2a595c;
+}
+.box .kutuGovde .sag{
+    width:269px;
+    float:right;
+    height:500px;
+     border:1px dotted #2a595c;
+}
+.box .kutuGovde .sag .sagBaslik{
+    width:269px;
+    float:left;
+    height:30px;
+     background-color:#2a595c;
+}
+.box .kutuGovde .sag .sagIcerik{
+    width:269px;
+    float:left;
+    height:auto;
+     
+}
+.box .alt{
+    margin-top:20px;
+    width:1000px;
+    float:left;
+    height:30px;
+       background-color:#2a595c;
+}
+
+.isim a{
+      text-decoration:none;
+    color:#fff;
+}
+.isim a:hover{
+      text-decoration:none;
+    color:#7e7b7b;
+}
